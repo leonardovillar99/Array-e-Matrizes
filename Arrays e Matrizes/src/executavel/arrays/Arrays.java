@@ -45,36 +45,5 @@ public class Arrays {
 			}
 			System.out.println("\nA maior nota da disciplina: " + d.getDisciplina() + " é de valor: " + notaMax);
 		}
-		
-		/*double[] notas = {6.6, 7.5, 8.8, 4.0};
-		
-		for(int pos = 0; pos < 4; pos++) {
-			System.out.println("A nota da posição " + (pos + 1) + " é igual à: " + notas[pos]);
-		}
-		
-		
-		 Forma 1 de se fazer um array 
-		double[] valores = {9.5, 8.9, 5.8};
-		
-		System.out.println(valores[1]);
-		
-		/* Forma 2 de se fazer um array 
-		String[] informacoes = new String[4];
-		
-		informacoes[0] = "Leonardo";
-		informacoes[1] = "9,5";
-		informacoes[2] = "UNIP";
-		informacoes[3] = "l.fvillar99@gmail.com";
-			
-		String posicoes = JOptionPane.showInputDialog("Quantas posições o array deve ter?");
-		
-		double[] nota = new double[Integer.parseInt(posicoes)];
-
-		for(int pos = 0; pos < nota.length; pos++) {
-			String valor = JOptionPane.showInputDialog("Qual o valor da posição: " + pos);
-			nota[pos] = Double.valueOf(valor);
-			System.out.println("Sua na posição: " + (pos + 1) + " é igual à: " + nota[pos]); 
-
-		}*/
 	}
 }	
