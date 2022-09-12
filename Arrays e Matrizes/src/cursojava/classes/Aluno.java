@@ -52,5 +52,4 @@ public class Aluno {
 		}
 		return somaNotas / disciplinas.size();
 	}
-	
 }
