@@ -53,7 +53,7 @@ public class Arrays {
 		arrayAlunos[1] = aluno2;
 		
 		for(int pos = 0; pos < arrayAlunos.length; pos++) {
-			System.out.println("Nome do aluno é: " + arrayAlunos[pos].getNome() + " anos");
+			System.out.println("Nome do aluno é: " + arrayAlunos[pos].getNome());
 			System.out.println("Nome do aluno é: " + arrayAlunos[pos].getIdade() + " anos");
 			
 			for(Disciplina d : arrayAlunos[pos].getDisciplinas()) {
